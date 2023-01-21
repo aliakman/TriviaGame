@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: cdc9fa4a90d65ea459440123b0984b3f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - JuliaMono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ebfaaf528e70b5649992fa0d38b406ed, type: 3}
+  - {fileID: 12800000, guid: 46014b750b2722e40afd789cfd4ed426, type: 3}
+  - {fileID: 12800000, guid: c14ce80914228894a8fabc38f8a96b17, type: 3}
+  - {fileID: 12800000, guid: e281152accb22594babb3b58093813cf, type: 3}
+  - {fileID: 12800000, guid: f74e62a526201ea469cd2a18530a559b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

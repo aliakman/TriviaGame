@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b77f266f84781245a6ad3f78ad35063, type: 3}
+  m_Name: Question Data
+  m_EditorClassIdentifier: 
+  questions:
+  - category: General-Culture
+    categorySprite: {fileID: 21300000, guid: a91a068d3dad4f14891e5180bcffd86b, type: 3}
+    question: "Hangisi T\xFCrkiye'nin ba\u015Fkentidir?"
+    choices:
+    - "A) \u0130stanbul"
+    - B) Ankara
+    - "C) \u0130zmir"
+    - D)  Bursa
+    answer: 1
+  - category: History
+    categorySprite: {fileID: 21300000, guid: 4ca18cc5b2829d24ba552bd68a20bb53, type: 3}
+    question: "Hangisi Osmanl\u0131 Padi\u015Fah\u0131 de\u011Fildir?"
+    choices:
+    - A) Fatih Sultan Mehmet
+    - "B) S\xFCleyman Kanuni"
+    - "C) Abd\xFClhamit II"
+    - "D) K\xF6sem  Sultan"
+    answer: 3
+  - category: Music
+    categorySprite: {fileID: 21300000, guid: e75892e674758d44681733f54593741e, type: 3}
+    question: "Hangisi bir m\xFCzik grubu de\u011Fildir?"
+    choices:
+    - A) Pink Floyd
+    - B) Queen
+    - C) Metallica
+    - D)  Tarkan
+    answer: 3
+  - category: Cinema
+    categorySprite: {fileID: 21300000, guid: 95f72e9f39cd91e4290a311ee2f7de8f, type: 3}
+    question: "Hangisi bir film de\u011Fildir?"
+    choices:
+    - A) Gladiator
+    - B) Pulp Fiction
+    - C) Titanic
+    - "D) Benim Ad\u0131m  K\u0131rm\u0131z\u0131"
+    answer: 3
