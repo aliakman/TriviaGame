@@ -27,8 +27,6 @@ public class CompetitionBehaviour : MonoBehaviour
 
     private void OnEnable()
     {
-        DataManager.LoadData(gameData);
-
         EventManager.CompetitionBehaviour += () => this;
         EventManager.QuestionReady += () => isTimesStarted = true;
     }
@@ -109,8 +107,6 @@ public class CompetitionBehaviour : MonoBehaviour
 
     public void AnswerStatus(bool _isCorrect)
     {
-        Debug.Log("Answer is " + _isCorrect);
-
         gameData.playerData.playerScore += 
             _isCorrect ?
                 gameData.competitionData.correctAnswerPoint :
@@ -131,8 +127,6 @@ public class CompetitionBehaviour : MonoBehaviour
 
     public void NoReplyInTime()
     {
-        Debug.Log("No Reply In Time");
-
         gameData.questionData.questions[questionNumber].answerStatus = global::AnswerStatus.TimesUp;
 
         EventManager.QuestionNotReplied?.Invoke();
